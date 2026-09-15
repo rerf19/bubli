@@ -4,7 +4,7 @@ public static partial class Module
 {
     // Config table
     [Table(Name = "config", Public = true)]
-    public static class Config
+    public partial struct Config
     {
         [PrimaryKey]
         public uint id;
